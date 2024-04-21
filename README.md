@@ -8,6 +8,7 @@ This project is a chatbot designed to provide assistance and support to users of
 
 ![image](https://github.com/Nabanita29/unstop_talent_park/assets/107246882/215eff2b-26be-4f11-b5c9-9626b5e95ba7)
 
+![image](https://github.com/Nabanita29/unstop_talent_park/assets/107246882/6c29cedc-1721-4cad-a238-f807f2387cbe)
 
 
 
