@@ -19,6 +19,20 @@
                 ],
                 "maxAttempts": 2
               }
+            },
+            {
+              "name": "Location",
+              "slotType": "AMAZON.Country",
+              "slotConstraint": "Optional",
+              "valueElicitationPrompt": {
+                "messages": [
+                  {
+                    "contentType": "PlainText",
+                    "content": "In which country are you looking for opportunities?"
+                  }
+                ],
+                "maxAttempts": 2
+              }
             }
           ]
         }
@@ -28,7 +42,11 @@
       "I'm looking for opportunities",
       "Can you help me find internships?",
       "Show me hackathons",
-      "I am a {UserDetails}"
+      "I am a {UserDetails}",
+      "I'm {UserDetails} looking for {Location} opportunities",
+      "Find opportunities in {Location}",
+      "I'm interested in {UserDetails.year} internships",
+      "Show me {UserDetails.year} hackathons"
     ]
   }
 }
