@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "apiVersion": "1.0",
+    "intentSchema": {
+      "intents": [
+        {
+          "intentName": "FindOpportunities",
+          "slots": [
+            {
+              "name": "UserDetails",
+              "slotType": "AMAZON.Person",
+              "slotConstraint": "Required",
+              "valueElicitationPrompt": {
+                "messages": [
+                  {
+                    "contentType": "PlainText",
+                    "content": "Can you tell me about yourself? (e.g., name, year, interests)"
+                  }
+                ],
+                "maxAttempts": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "utterances": [
+      "I'm looking for opportunities",
+      "Can you help me find internships?",
+      "Show me hackathons",
+      "I am a {UserDetails}"
+    ]
+  }
+}
