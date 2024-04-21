@@ -29,3 +29,6 @@ This project is a chatbot designed to provide assistance and support to users of
 - **User Feedback and Iteration**: The chatbot collects user feedback to iteratively improve its performance and enhance the user experience over time, ensuring continuous optimization and satisfaction.
 
 - **Multi-channel Deployment**: The chatbot can be deployed across multiple channels, including web, mobile apps, and messaging platforms, to reach users wherever they are and maximize accessibility.
+
+##
+- **Made by Nabanita Chatterjee**
